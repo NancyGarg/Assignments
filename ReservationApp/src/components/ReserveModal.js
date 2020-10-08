@@ -95,7 +95,7 @@ export default class ReserveModal extends Component {
               style={[styles.deleteRowItem]}
               onPress={() => {
                 if (onConfirm) {
-                  if (this.state.selectedslot == '') {
+                  if (this.state.name == '') {
                     Snackbar.show({
                       text: 'Please enter your Name',
                       duration: Snackbar.LENGTH_SHORT,
